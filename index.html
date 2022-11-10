@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="card">
+        <div id="upper">
+            <img src="/basket.jpg" alt="street basket">
+            <h1>Street Basketball Score Keeper</h1>
+        </div>
+        <div id="lower">
+            <h2 id="score"><span id="first">0</span> to <span id="second">0</span></h2>
+            <p id="instructions">Use the buttons bellow to keep score</p>
+            <div id="rounds">
+                <label for="rounds">Playing to: </label>
+                <select name="rounds">
+                    <option value="3" selected>3</option>
+                    <option value="6">6</option>
+                    <option value="11">11</option>
+                    <option value="21">21</option>
+                </select>
+            </div>
+            <div id="buttons">
+                <button id="one">+1 Player One</button><button id="two">+1 Player Two</button><button
+                    id="reset">RESET</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="/app.js"></script>
+</body>
+
+</html>
