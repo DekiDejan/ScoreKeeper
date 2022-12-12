@@ -54,8 +54,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10% auto;
-    max-height: 100vh;
+    margin: auto;
+    height: 100vh;
     max-width: 90%;
 }
 
